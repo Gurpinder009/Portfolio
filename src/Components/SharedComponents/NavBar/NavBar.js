@@ -5,7 +5,7 @@ import {Brand, Nav,StyledIcon,StyledMenu,StyledListItem, StyledList} from './Nav
 
 import { links } from '../RoutingList.js';
 
-export default function Navbar() {
+export default function Navbar({handleDrawer}) {
 
     return (
         <Nav>
@@ -20,13 +20,13 @@ export default function Navbar() {
                 }
             </StyledList>
             <StyledList>
-                <StyledIcon href='https://www.google.com' ><i className="fab fa-github"></i></StyledIcon>
-                <StyledIcon href='https://www.google.com' ><i className="fab fa-twitter"></i></StyledIcon>
-                <StyledIcon href='https://www.google.com' ><i className="fab fa-linkedin"></i></StyledIcon>
+                <StyledIcon href='https://github.com/Singh-gsh009/projectWork' target="_blank" ><i className="fab fa-github"></i></StyledIcon>
+                <StyledIcon href='https://www.google.com' target="_blank" ><i className="fab fa-twitter"></i></StyledIcon>
+                <StyledIcon href='https://www.google.com' target="_blank" ><i className="fab fa-linkedin"></i></StyledIcon>
             </StyledList>
 
-            <StyledMenu >
-            <i className="fas fa-bars"></i>
+            <StyledMenu onClick={handleDrawer} >
+           `` <i className="fas fa-bars"></i>
             </StyledMenu>
 
         </Nav>

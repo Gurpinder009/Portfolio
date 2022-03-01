@@ -1,7 +1,13 @@
 import React from 'react'
+import styled from 'styled-components'
 
 export default function ContactMe() {
   return (
-    <div>ContactMe</div>
+    <ContactMeWrapper>ContactMe</ContactMeWrapper>
   )
 }
+
+
+const ContactMeWrapper = styled.div`
+min-height:90vh;
+`

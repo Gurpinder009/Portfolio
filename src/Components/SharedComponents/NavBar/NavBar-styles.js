@@ -40,7 +40,7 @@ export const StyledListItem = styled(Link)`
   text-decoration: none;
   font-size: medium;
   font-weight: 500;
-
+  transition:all 0.6s ease-out ;
   &:hover {
     color: #313131;
   }
@@ -54,7 +54,7 @@ export const StyledListItem = styled(Link)`
     bottom: 0;
     min-height:2px;
     background-color:#34b7a7;
-    transition:all  0.4s ease-out ;
+    transition:all 0.6s ease-out ;
   }
 
   &:hover::after{
@@ -68,6 +68,7 @@ export const StyledIcon = styled.a`
  margin:0 0.3em;
  font-size: large;
  color: ${text_color};
+ transition:background-color 0.6s linear;
  &:hover{
   color:#2fa697;
  }

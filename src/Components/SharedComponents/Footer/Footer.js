@@ -1,8 +1,16 @@
 import React from 'react'
-import {StyledFooter} from "./Footer-styles"
+import { StyledFooter, StyledCopyright } from './Footer-styles'
 
 export default function Footer() {
+
   return (
-    <StyledFooter>this is working</StyledFooter>
+    <StyledFooter>
+      <div>
+        <div>© Copyright GSG009.</div>
+
+        <StyledCopyright>All Rights Reserved</StyledCopyright>
+      </div>
+    </StyledFooter>
   )
 }
+

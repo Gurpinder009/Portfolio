@@ -1,7 +1,11 @@
 import React from 'react'
+import styled from 'styled-components'
 
+const AboutWrapper= styled.div `
+height:87em;
+`
 export default function About() {
   return (
-    <div>About</div>
+    <AboutWrapper>About</AboutWrapper>
   )
 }

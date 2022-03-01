@@ -1,13 +1,28 @@
-import React, { useState } from 'react'
-import { StyledDrawer } from './Drawer-styles'
+import React from 'react'
+import { StyledDrawer,StyledHeading,StyledBox,StyledLink } from './Drawer-styles'
+import {links} from "../RoutingList"
 
 
-export default function Drawer() {
-  const [isOpen,setIsOpen] = useState(true);
-  const handleDrawer = () => setIsOpen(!isOpen);
+
+
+export default function Drawer({isOpen}) {
+  
+
+  const handleRouting = ()=>{
+    console.log("hello")
+  }
+
+
   return (
-    <StyledDrawer isOpen={isOpen}>Drawer
-      <button type='button' onClick={handleDrawer}>Toggle</button>
+    <StyledDrawer isOpen={isOpen}>
+            <StyledHeading>Navigation</StyledHeading>
+            <StyledBox>
+            {
+                links.map(values=>(
+                    <StyledLink key={values.path} onClick={()=>handleRouting(values.path)}>{values.name}</StyledLink>
+                ))
+            }
+            </StyledBox>
     </StyledDrawer>
   )
 }

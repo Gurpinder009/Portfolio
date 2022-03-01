@@ -1,7 +1,24 @@
 import styled from "styled-components";
 
+
 export const StyledFooter = styled.footer`
-background-color:blue;
-min-height:7em;
-color:white;
+    display:flex;
+    color:#737373;
+    justify-content:center;
+    align-items:center;
+    min-height:7em;
+    background-color: #e9e8e6;
+    position:static;
+    bottom:0;
+    box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 10%);
+
+`
+
+
+
+
+export const StyledCopyright = styled.div`
+    font-size: x-small;
+    text-align:center;
+    margin-top: 0.5em;
 `

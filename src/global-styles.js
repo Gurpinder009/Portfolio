@@ -18,7 +18,6 @@ body {
   #root{
       height:100%;
       display:grid;
-      overflow:hidden;
       position:relative;
       gap:0;
   }

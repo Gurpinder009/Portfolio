@@ -1,7 +1,14 @@
 import React from 'react'
+import styled from 'styled-components'
+
 
 export default function Projects() {
   return (
-    <div>Pasdfasdfas</div>
+    <ProjectsWrapper>Pasdfasdfas</ProjectsWrapper>
   )
 }
+
+
+const ProjectsWrapper = styled.div`
+min-height:90vh;
+`

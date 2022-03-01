@@ -12,7 +12,7 @@ export const links =[
         path : "/contact-me"
     },
     {
-        name:"Blogs",
-        path:"/blogs"
+        name:"Projects",
+        path:"/projects"
     }
 ]
