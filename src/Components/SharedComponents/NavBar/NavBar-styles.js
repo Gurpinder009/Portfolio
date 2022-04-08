@@ -15,7 +15,7 @@ height:4.5em;
   justify-content: space-between;
   padding:0 2em;
   align-items:center;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 12px rgba(0,0,0,0.2);
  
 `
 
@@ -40,6 +40,7 @@ export const StyledListItem = styled(Link)`
   text-decoration: none;
   font-size: medium;
   font-weight: 500;
+  outline:none;
   transition:all 0.6s ease-out ;
   &:hover {
     color: #313131;

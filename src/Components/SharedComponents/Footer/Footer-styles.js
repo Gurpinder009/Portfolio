@@ -10,7 +10,7 @@ export const StyledFooter = styled.footer`
     background-color: #e9e8e6;
     position:static;
     bottom:0;
-    box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0px -2px 10px rgba(0,0,0,0.2);
 
 `
 

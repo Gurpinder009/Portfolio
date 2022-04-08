@@ -40,12 +40,11 @@ export const StyledLink = styled.li`
   text-decoration: none;
   font-size: small;
   font-weight: 700;
-  transition: background-color 0.9s ease-out;
+  transition: background-color 0.7s ease-out;
   cursor: pointer;
   
   &:hover {
-      background-color: #ececec;
-  color:#404040;
+      background-color: #d9d9d9;
 
   }
 

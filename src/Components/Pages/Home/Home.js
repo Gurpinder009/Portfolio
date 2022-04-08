@@ -1,5 +1,5 @@
 import React from 'react'
-import { HomeWrapper,Heading, Description,Button,StyledBox,StyledBackground } from './Home-styles'
+import { HomeWrapper,Heading, Description,Button,StyledBox } from './Home-styles'
 import { useNavigate } from 'react-router-dom';
 
 
@@ -8,9 +8,8 @@ export default function Home() {
   const handleClick = () => navigate('/about');
   return (
     <HomeWrapper>
-       <StyledBackground></StyledBackground>
             <StyledBox>
-                <Heading>Gurpinder Singh. </Heading>
+                <Heading>Harkomal Singh. </Heading>
                 <Description>Coder, Programmer and Developer...</Description>
                 <Button onClick={handleClick}>About me</Button>
             </StyledBox> 

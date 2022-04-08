@@ -5,20 +5,18 @@ const text_color="#373737";
 
 
 export const HomeWrapper= styled.div`
-  min-height:90vh;
-display: block;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  @media (max-width: 780px) {
-    background-position: right;
-  }
+min-height:90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+flex-wrap: wrap;
+@media (max-width: 780px) {
+  background-position: right;
+}
+
 `
-export const HomeContainer = styled.div`
- 
-`
+
 
 export const StyledBox = styled.div`
   display: grid;
@@ -29,7 +27,7 @@ export const StyledBox = styled.div`
 `
 
 export const Heading = styled.h1`
-  width: 15.4ch;
+  width: 15ch;
   font-weight: bolder;
   color:${text_color} ;
   animation-duration: 3s;
@@ -79,6 +77,7 @@ export const Button = styled.button`
   border-radius: 25px;
   display: inline-block;
   transition-duration: 0.2s;
+  cursor: pointer;
 
   &:hover {
     color: white;
@@ -87,22 +86,5 @@ export const Button = styled.button`
 
   &:active {
     box-shadow: none;
-  }
-`
-
-export const StyledBackground = styled.div`
-  background-image: url("/img/homeImage.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-  height:100%;
-  width:100%;
-  position:absolute;
-  right:0;
-  /* border:6px solid blue; */
-  @media (max-width:780px) {
-    background-position: right;
-    opacity:0.4;
   }
 `

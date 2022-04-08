@@ -13,6 +13,7 @@ body {
   
   html,body{
       height:100%;
+      overflow:hidden;
   }
   
   #root{
@@ -28,9 +29,12 @@ body {
   }
   
   *{
-      box-sizing:border-box;
+      box-sizing:border-box !important;
       margin: 0;
-        padding:0;
+      padding:0;
 
   }
+ 
+
+
 `;
