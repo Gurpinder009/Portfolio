@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <HomeWrapper>
             <StyledBox>
-                <Heading>Harkomal Singh. </Heading>
+                <Heading>Gurpinder Singh. </Heading>
                 <Description>Coder, Programmer and Developer...</Description>
                 <Button onClick={handleClick}>About me</Button>
             </StyledBox> 

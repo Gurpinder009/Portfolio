@@ -64,7 +64,7 @@ export default function ContactMe() {
                 </svg>
               </ListIcon>
               <ListHeading>Location:</ListHeading>
-              <ListDesc>V.P.O. Dosanjh Kalan, Punjab</ListDesc>
+              <ListDesc>V.P.O. Khana Khana, SBS Nagar, Punjab</ListDesc>
             </List>
             <List>
               <ListIcon>
@@ -85,7 +85,7 @@ export default function ContactMe() {
                 </svg>
               </ListIcon>
               <ListHeading>Email Address:</ListHeading>
-              <ListDesc>michael@gmail.com</ListDesc>
+              <ListDesc>singh9464274057@gmail.com</ListDesc>
             </List>
             <List>
               <ListIcon>
@@ -108,7 +108,7 @@ export default function ContactMe() {
                 </svg>
               </ListIcon>
               <ListHeading>Phone Number:</ListHeading>
-              <ListDesc>+91 8146487427</ListDesc>
+              <ListDesc>+91 6283343850</ListDesc>
             </List>
           </ul>
         </Container>

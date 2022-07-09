@@ -10,33 +10,35 @@ import michael from "../../../michael.jpeg"
 
 const SkillList = [
   {
-    Heading: "Drawing",
-    value: 95,
+      Heading: "HTML",
+      value: 86,
   },
   {
-    Heading: "CSS",
-    value: 75,
+      Heading: "CSS",
+      value: 71,
   },
   {
-    Heading: "javascript",
-    value: 70,
-  },
-
-  {
-    Heading: "Chess",
-    value: 40,
+      Heading: "Javascript",
+      value: 80,
   },
 
   {
-    Heading: "HTML",
-    value: 80,
+      Heading: "php",
+      value: 78,
   },
 
   {
-    Heading: "Ludo",
-    value: 80,
+      Heading: "React",
+      value: 82,
+  },
+
+  {
+      Heading: "SQL",
+      value: 72,
   }
 ]
+
+
 
 
 
@@ -64,23 +66,23 @@ export default function About() {
           <PersonDetails>
             <DetailContainer>
               <DetailHeading>Name:</DetailHeading>
-              <DetailDesc> Harkomal singh</DetailDesc>
+              <DetailDesc> Gurpinder Singh</DetailDesc>
             </DetailContainer>
             <DetailContainer>
               <DetailHeading>Age:</DetailHeading>
-              <DetailDesc> 20</DetailDesc>
+              <DetailDesc> 21</DetailDesc>
             </DetailContainer>
             <DetailContainer>
               <DetailHeading>Phone Number:</DetailHeading>
-              <DetailDesc> 8146487427</DetailDesc>
+              <DetailDesc> 6283343850</DetailDesc>
             </DetailContainer>
             <DetailContainer>
               <DetailHeading>Email Address:</DetailHeading>
-              <DetailDesc> michael@gmail.com</DetailDesc>
+              <DetailDesc> singh9464274057@gmail.com</DetailDesc>
             </DetailContainer>
             <DetailContainer>
               <DetailHeading>Address:</DetailHeading>
-              <DetailDesc> V.P.O. Dosanjh kalan, Punjab</DetailDesc>
+              <DetailDesc> V.P.O. Khan Khana, SBS Nagar, Punjab</DetailDesc>
             </DetailContainer>
             <DetailContainer>
               <DetailHeading>Freelance:</DetailHeading>

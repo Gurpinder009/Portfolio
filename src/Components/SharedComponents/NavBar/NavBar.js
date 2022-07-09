@@ -10,7 +10,7 @@ export default function Navbar({handleDrawer}) {
     return (
         <Nav>
             <Brand>
-                Michael
+                Portfolio
             </Brand>
             <StyledList>
                 {
